@@ -1,5 +1,5 @@
 class Character():
-    def __init__(self, name, health):
+    def __init__(self, name, hp):
         self.name = name
-        self.health = health
-        print "A '{0}' has been born, with {1}hp!".format(name,health)
+        self.hp = hp
+        print "A '{0}' has been born, with {1}hp!".format(name,hp)
