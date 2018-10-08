@@ -6,6 +6,7 @@ class Character():
 
     def get_hit(self, damage):
         self.hp -= damage
-        if self.hp < 0:
+        print "{0} has recieved {1} damage!".format(self.name, damage)
+        if self.hp <= 0:
             self.hp = 0
-
+            print "{0} has been defeated!"

@@ -21,4 +21,13 @@ foes = [rpg.Character("Undead Knight", 50), rpg.Character("Medusa", 35)]
 
 
 # Game main loop
-#while check_death(foes):
+print "\n\n Battle has started!"
+while not check_death(foes):
+    index = 0
+    while index < len(foes):
+        print "{0}. {1} \t [{2} HP]".format(index+1, foes[index].name, foes[index].hp)
+        index = index + 1
+    choice = input("Attack enemy: ")
+    foes[choice-1].get_hit(23)
+    print "\n\n"
+print "\n Victory Fare ~~~~"
