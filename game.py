@@ -1,7 +1,7 @@
 import sys
 import rpg
 
-print sys.versionq
+print sys.version
 print "-" * 20 + "\n\n\n"
 
 print "Welcome to Endless Battles!"
