@@ -2,12 +2,12 @@ class Character():
     def __init__(self, name, stats, hp):
         self.name = name
         self.hp = hp
-        self.stats.str = stats[0]
-        self.stats.dex = stats[1]
-        self.stats.con = stats[2]
-        self.stats.int = stats[3]
-        self.stats.wis = stats[4]
-        self.stats.chm = stats[5]
+        self.stats_str = stats[0]
+        self.stats_dex = stats[1]
+        self.stats_con = stats[2]
+        self.stats_int = stats[3]
+        self.stats_wis = stats[4]
+        self.stats_chm = stats[5]
         print "A '{0}' has been born, with {1}hp!".format(name,hp)
 
     def get_hit(self, damage):

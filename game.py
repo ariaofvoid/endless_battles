@@ -22,6 +22,7 @@ foes = [rpg.Character("Undead Knight",[2,2,1,1,2,0], 50), rpg.Character("Medusa"
 
 # Game main loop
 print "\n\n Battle has started!"
+
 while not check_death(foes):
     index = 0
     while index < len(foes):
