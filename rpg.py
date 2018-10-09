@@ -3,7 +3,7 @@ from enum import Enum
 
 
 class Character:
-    def __init__(self, name, stats, hp):
+    def __init__(self, name, stats, hp, skills: list):
         self.name = name
         self.hp = hp
         self.stats_str = stats[0]
@@ -12,6 +12,7 @@ class Character:
         self.stats_int = stats[3]
         self.stats_wis = stats[4]
         self.stats_chm = stats[5]
+        self.skills = skills
         print("A '{0}' has been born, with {1}hp!".format(name,hp))
 
     def get_hit(self, damage):
