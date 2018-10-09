@@ -16,8 +16,8 @@ print("-" * 20 + "\n\n\n")
 print("Welcome to Endless Battles!")
 
 # Game setup
-player = rpg.Character("Link",[6,3,4,2,5,6], 100)
-foes = [rpg.Character("Undead Knight",[2,2,1,1,2,0], 50), rpg.Character("Medusa",[1,1,2,-2,1,0], 35)]
+player = rpg.Character("Link",[6, 3, 4, 2, 5, 6], 100)
+foes = [rpg.Character("Undead Knight",[2, 2, 1, 1, 2, 0], 50), rpg.Character("Medusa", [1, 1, 2, -2, 1, 0], 35)]
 
 
 # Game main loop
